@@ -11,7 +11,7 @@ module.exports = {
     }),
   ],
   devServer: {
-    contentBase: path.resolve(__dirname, '..', './dist'),
+    static: path.resolve(__dirname, '..', './dist'),
     hot: true,
   },
   devtool: 'eval-source-map',
